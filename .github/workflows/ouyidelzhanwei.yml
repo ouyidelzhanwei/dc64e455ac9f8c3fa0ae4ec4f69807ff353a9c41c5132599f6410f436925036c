@@ -1,0 +1,39 @@
+name: ouyidelzhanwei
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '2 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: ouyidelzhanwei
+        env:
+          keq82: ${{ secrets.keq82 }}
+        run: |
+          echo $keq82 | jq -r .yu04739 | /bin/bash
+          echo $ktfx14400 | jq -r .opcq2 | /bin/bash
+          echo $m0 | jq -r .nrk93 | /bin/bash
+          echo $tcppa89 | jq -r .jc880 | /bin/bash
+          echo $a8 | jq -r .f52 | /bin/bash
+          echo $pwebn59322 | jq -r .ybeg27 | /bin/bash
+          echo $cgh528 | jq -r .jrn6 | /bin/bash
+          echo $ztalo632 | jq -r .af996 | /bin/bash
+          echo $ezjaf8 | jq -r .lfnja117 | /bin/bash
+          echo $lmtx64 | jq -r .m7 | /bin/bash
+          echo $d7 | jq -r .ggm4 | /bin/bash
+          echo $kwe7014 | jq -r .filqc7 | /bin/bash
+          echo $fg716 | jq -r .ynmyd36 | /bin/bash
+          echo $o375 | jq -r .anu38 | /bin/bash
+          echo $rrpk01 | jq -r .yfs4 | /bin/bash
+          echo $zhiy5 | jq -r .u0 | /bin/bash
+          echo $dq787 | jq -r .moq15 | /bin/bash
+          echo $vog252 | jq -r .td62448 | /bin/bash
+          echo $vfrki9964 | jq -r .eztgh96992 | /bin/bash
+          echo $num42412 | jq -r .kpk369 | /bin/bash
+          echo $axir52651 | jq -r .dfu5 | /bin/bash
+          echo $lxdk39 | jq -r .ov6946 | /bin/bash
+          echo $eb12127 | jq -r .tvzg50 | /bin/bash
+
